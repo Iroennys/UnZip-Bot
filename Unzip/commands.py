@@ -15,17 +15,17 @@ async def start(client, message):
     reply_markup = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("📍 Update Channel", url="https://t.me/NT_BOT_CHANNEL"),
+            InlineKeyboardButton("ACTUALIZACIÓN 🌐", url="https://t.me/ND_PRKERBOR"),
         ],
         [
-            InlineKeyboardButton("👥 Support Group", url="https://t.me/NT_BOTS_SUPPORT"),
-            InlineKeyboardButton("👩‍💻 Developer", url="https://t.me/LISA_FAN_LK"),
+            InlineKeyboardButton("👥 SOPORTE", url="https://t.me/NT_BOTS_SUPPORTIROVOTERF"),
+            InlineKeyboardButton("CREADOR", url="https://t.me/nautaii"),
         ] 
    ]
   )
     start_message = (
-        "Hello!\n\n"
-        "Send me a ZIP file, and I'll unzip it for you."
+        "Hola!\n\n"
+        "Envié un ZIP file, y lo descomprimire."
     )
     await message.reply(start_message, reply_markup=reply_markup)
 
